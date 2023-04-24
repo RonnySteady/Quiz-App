@@ -36,11 +36,11 @@ main {
 }
 
 .navbar-list {
-  font-size: 20px;
   padding: 20px;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
 }
 
 nav {
@@ -48,4 +48,11 @@ nav {
   background-color: burlywood;
   width: 100%;
   bottom: 0;
+}
+
+navbar-list-item {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  font-size: xx-small;
 }
